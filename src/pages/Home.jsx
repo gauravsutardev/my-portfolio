@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import "../CSS/Home.css"
 import '../index.css'
 
-// Import Assets
-import photo from '../../public/profile.jpg.jpg'
-import githubLogo from '../../public/github.png'
-import linkedinLogo from '../../public/linkedin.png'
-import gmailLogo from '../../public/gmail.png'
-import whatsappLogo from '../../public/whatsapp.png'
-import instagramLogo from '../../public/insta.png'
-import facebookLogo from '../../public/facebook.png'
+// Public assets should be referenced by root-relative URLs in Vite.
+const photo = '/profile.jpg.jpg'
+const githubLogo = '/github.png'
+const linkedinLogo = '/linkedin.png'
+const gmailLogo = '/gmail.png'
+const whatsappLogo = '/whatsapp.png'
+const instagramLogo = '/insta.png'
+const facebookLogo = '/facebook.png'
 
 export default function Home() {
   const professions = [
