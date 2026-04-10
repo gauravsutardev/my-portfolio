@@ -11,8 +11,8 @@ const PROJECTS = [
     desc: 'Responsive portfolio built with React and javascript CSS to showcase projects and skills.',
     ss: publicPath('project1.jpg'),
     tech: ['React', 'Lucide React', 'Vite', 'EmailJS', 'CSS'],
-    live: '#',
-    code: '#'
+    live: 'https://gauravsutar-portfolio.vercel.app/',
+    code: 'https://github.com/gauravsutar/portfolio'
   },
   {
     title: 'AI Plagiarism & AI Text Detector',
